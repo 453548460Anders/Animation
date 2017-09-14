@@ -14,8 +14,6 @@
 		715A91E71F6A11C90005563F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715A91E51F6A11C90005563F /* LaunchScreen.storyboard */; };
 		715A91F21F6A11C90005563F /* UIViewAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A91F11F6A11C90005563F /* UIViewAnimationTests.m */; };
 		715A91FD1F6A11C90005563F /* UIViewAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A91FC1F6A11C90005563F /* UIViewAnimationUITests.m */; };
-		715A920F1F6A12100005563F /* AWTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A920D1F6A12100005563F /* AWTransformViewController.m */; };
-		715A92101F6A12100005563F /* AWTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A920E1F6A12100005563F /* AWTransformViewController.xib */; };
 		715A92151F6A159F0005563F /* AWEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92131F6A159F0005563F /* AWEventViewController.m */; };
 		715A92161F6A159F0005563F /* AWEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92141F6A159F0005563F /* AWEventViewController.xib */; };
 		715A921B1F6A178C0005563F /* AWMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A921A1F6A178C0005563F /* AWMoveView.m */; };
@@ -23,6 +21,8 @@
 		715A92211F6A17C90005563F /* AWEventMoveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A921F1F6A17C90005563F /* AWEventMoveController.xib */; };
 		715A92261F6A5FAE0005563F /* AWDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92241F6A5FAE0005563F /* AWDrawerController.m */; };
 		715A92271F6A5FAE0005563F /* AWDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92251F6A5FAE0005563F /* AWDrawerController.xib */; };
+		715A922C1F6A68D90005563F /* AWTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A922A1F6A68D90005563F /* AWTransformViewController.m */; };
+		715A922D1F6A68D90005563F /* AWTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A922B1F6A68D90005563F /* AWTransformViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +57,6 @@
 		715A91F81F6A11C90005563F /* UIViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		715A91FC1F6A11C90005563F /* UIViewAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationUITests.m; sourceTree = "<group>"; };
 		715A91FE1F6A11C90005563F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		715A920C1F6A12100005563F /* AWTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTransformViewController.h; sourceTree = "<group>"; };
-		715A920D1F6A12100005563F /* AWTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTransformViewController.m; sourceTree = "<group>"; };
-		715A920E1F6A12100005563F /* AWTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTransformViewController.xib; sourceTree = "<group>"; };
 		715A92121F6A159F0005563F /* AWEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEventViewController.h; sourceTree = "<group>"; };
 		715A92131F6A159F0005563F /* AWEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEventViewController.m; sourceTree = "<group>"; };
 		715A92141F6A159F0005563F /* AWEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWEventViewController.xib; sourceTree = "<group>"; };
@@ -71,6 +68,9 @@
 		715A92231F6A5FAE0005563F /* AWDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDrawerController.h; sourceTree = "<group>"; };
 		715A92241F6A5FAE0005563F /* AWDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDrawerController.m; sourceTree = "<group>"; };
 		715A92251F6A5FAE0005563F /* AWDrawerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWDrawerController.xib; sourceTree = "<group>"; };
+		715A92291F6A68D90005563F /* AWTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTransformViewController.h; sourceTree = "<group>"; };
+		715A922A1F6A68D90005563F /* AWTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTransformViewController.m; sourceTree = "<group>"; };
+		715A922B1F6A68D90005563F /* AWTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTransformViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,21 +162,11 @@
 		715A920A1F6A11FE0005563F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				715A92281F6A68D90005563F /* Transform(基本动画) */,
 				715A92221F6A5F240005563F /* Drawer(抽屉效果) */,
 				715A92111F6A15900005563F /* Event */,
-				715A920B1F6A11FE0005563F /* Transform */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		715A920B1F6A11FE0005563F /* Transform */ = {
-			isa = PBXGroup;
-			children = (
-				715A920C1F6A12100005563F /* AWTransformViewController.h */,
-				715A920D1F6A12100005563F /* AWTransformViewController.m */,
-				715A920E1F6A12100005563F /* AWTransformViewController.xib */,
-			);
-			path = Transform;
 			sourceTree = "<group>";
 		};
 		715A92111F6A15900005563F /* Event */ = {
@@ -226,6 +216,16 @@
 				715A92251F6A5FAE0005563F /* AWDrawerController.xib */,
 			);
 			path = "Drawer(抽屉效果)";
+			sourceTree = "<group>";
+		};
+		715A92281F6A68D90005563F /* Transform(基本动画) */ = {
+			isa = PBXGroup;
+			children = (
+				715A92291F6A68D90005563F /* AWTransformViewController.h */,
+				715A922A1F6A68D90005563F /* AWTransformViewController.m */,
+				715A922B1F6A68D90005563F /* AWTransformViewController.xib */,
+			);
+			path = "Transform(基本动画)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,9 +340,9 @@
 			files = (
 				715A91E71F6A11C90005563F /* LaunchScreen.storyboard in Resources */,
 				715A92271F6A5FAE0005563F /* AWDrawerController.xib in Resources */,
-				715A92101F6A12100005563F /* AWTransformViewController.xib in Resources */,
 				715A92161F6A159F0005563F /* AWEventViewController.xib in Resources */,
 				715A92211F6A17C90005563F /* AWEventMoveController.xib in Resources */,
+				715A922D1F6A68D90005563F /* AWTransformViewController.xib in Resources */,
 				715A91E41F6A11C90005563F /* Assets.xcassets in Resources */,
 				715A91E21F6A11C90005563F /* Main.storyboard in Resources */,
 			);
@@ -369,12 +369,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				715A920F1F6A12100005563F /* AWTransformViewController.m in Sources */,
 				715A91DC1F6A11C90005563F /* AppDelegate.m in Sources */,
 				715A92261F6A5FAE0005563F /* AWDrawerController.m in Sources */,
 				715A91D91F6A11C90005563F /* main.m in Sources */,
 				715A921B1F6A178C0005563F /* AWMoveView.m in Sources */,
 				715A92151F6A159F0005563F /* AWEventViewController.m in Sources */,
+				715A922C1F6A68D90005563F /* AWTransformViewController.m in Sources */,
 				715A92201F6A17C90005563F /* AWEventMoveController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
