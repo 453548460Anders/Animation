@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "AWTransformViewController.h"
 #import "AWEventViewController.h"
+#import "AWSketchController.h"
 
 @interface AppDelegate ()
 
@@ -25,10 +25,14 @@
 
     UITabBarController *tabBar = [[UITabBarController alloc] init];
     self.window.rootViewController = tabBar;
-    [tabBar addChildViewController:[[AWTransformViewController alloc] init]];
 
     UINavigationController *navEven = [[UINavigationController alloc] initWithRootViewController:[[AWEventViewController alloc] init]];
+    navEven.tabBarController.tabBarItem.title = @"事件处理";
     [tabBar addChildViewController:navEven];
+
+    UINavigationController *navSketch = [[UINavigationController alloc] initWithRootViewController:[[AWSketchController alloc] init]];
+    navEven.tabBarController.tabBarItem.title = @"绘图";
+    [tabBar addChildViewController:navSketch];
 
 
     [self.window makeKeyAndVisible];

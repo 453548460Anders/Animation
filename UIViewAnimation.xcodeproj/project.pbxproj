@@ -14,15 +14,19 @@
 		715A91E71F6A11C90005563F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715A91E51F6A11C90005563F /* LaunchScreen.storyboard */; };
 		715A91F21F6A11C90005563F /* UIViewAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A91F11F6A11C90005563F /* UIViewAnimationTests.m */; };
 		715A91FD1F6A11C90005563F /* UIViewAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A91FC1F6A11C90005563F /* UIViewAnimationUITests.m */; };
-		715A92151F6A159F0005563F /* AWEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92131F6A159F0005563F /* AWEventViewController.m */; };
-		715A92161F6A159F0005563F /* AWEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92141F6A159F0005563F /* AWEventViewController.xib */; };
-		715A921B1F6A178C0005563F /* AWMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A921A1F6A178C0005563F /* AWMoveView.m */; };
-		715A92201F6A17C90005563F /* AWEventMoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A921E1F6A17C90005563F /* AWEventMoveController.m */; };
-		715A92211F6A17C90005563F /* AWEventMoveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A921F1F6A17C90005563F /* AWEventMoveController.xib */; };
-		715A92261F6A5FAE0005563F /* AWDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92241F6A5FAE0005563F /* AWDrawerController.m */; };
-		715A92271F6A5FAE0005563F /* AWDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92251F6A5FAE0005563F /* AWDrawerController.xib */; };
-		715A922C1F6A68D90005563F /* AWTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A922A1F6A68D90005563F /* AWTransformViewController.m */; };
-		715A922D1F6A68D90005563F /* AWTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A922B1F6A68D90005563F /* AWTransformViewController.xib */; };
+		715A92451F6A6AB10005563F /* AWDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92331F6A6AB10005563F /* AWDrawerController.m */; };
+		715A92461F6A6AB10005563F /* AWDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92341F6A6AB10005563F /* AWDrawerController.xib */; };
+		715A92471F6A6AB10005563F /* AWEventMoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92381F6A6AB10005563F /* AWEventMoveController.m */; };
+		715A92481F6A6AB10005563F /* AWEventMoveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92391F6A6AB10005563F /* AWEventMoveController.xib */; };
+		715A92491F6A6AB10005563F /* AWMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A923C1F6A6AB10005563F /* AWMoveView.m */; };
+		715A924A1F6A6AB10005563F /* AWTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A923F1F6A6AB10005563F /* AWTransformViewController.m */; };
+		715A924B1F6A6AB10005563F /* AWTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92401F6A6AB10005563F /* AWTransformViewController.xib */; };
+		715A924C1F6A6AB10005563F /* AWEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92431F6A6AB10005563F /* AWEventViewController.m */; };
+		715A924D1F6A6AB10005563F /* AWEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A92441F6A6AB10005563F /* AWEventViewController.xib */; };
+		715A925A1F6A6B890005563F /* AWSketchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92591F6A6B890005563F /* AWSketchController.m */; };
+		715A925D1F6A6C900005563F /* Quartz2D简介.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A925C1F6A6C900005563F /* Quartz2D简介.m */; };
+		715A92691F6A81CC0005563F /* AWLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A92681F6A81CC0005563F /* AWLineView.m */; };
+		715A926D1F6A834B0005563F /* AWDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A926C1F6A834B0005563F /* AWDrawRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,20 +61,27 @@
 		715A91F81F6A11C90005563F /* UIViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		715A91FC1F6A11C90005563F /* UIViewAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationUITests.m; sourceTree = "<group>"; };
 		715A91FE1F6A11C90005563F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		715A92121F6A159F0005563F /* AWEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEventViewController.h; sourceTree = "<group>"; };
-		715A92131F6A159F0005563F /* AWEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEventViewController.m; sourceTree = "<group>"; };
-		715A92141F6A159F0005563F /* AWEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWEventViewController.xib; sourceTree = "<group>"; };
-		715A92191F6A178C0005563F /* AWMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWMoveView.h; sourceTree = "<group>"; };
-		715A921A1F6A178C0005563F /* AWMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWMoveView.m; sourceTree = "<group>"; };
-		715A921D1F6A17C90005563F /* AWEventMoveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEventMoveController.h; sourceTree = "<group>"; };
-		715A921E1F6A17C90005563F /* AWEventMoveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEventMoveController.m; sourceTree = "<group>"; };
-		715A921F1F6A17C90005563F /* AWEventMoveController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWEventMoveController.xib; sourceTree = "<group>"; };
-		715A92231F6A5FAE0005563F /* AWDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDrawerController.h; sourceTree = "<group>"; };
-		715A92241F6A5FAE0005563F /* AWDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDrawerController.m; sourceTree = "<group>"; };
-		715A92251F6A5FAE0005563F /* AWDrawerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWDrawerController.xib; sourceTree = "<group>"; };
-		715A92291F6A68D90005563F /* AWTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTransformViewController.h; sourceTree = "<group>"; };
-		715A922A1F6A68D90005563F /* AWTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTransformViewController.m; sourceTree = "<group>"; };
-		715A922B1F6A68D90005563F /* AWTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTransformViewController.xib; sourceTree = "<group>"; };
+		715A92321F6A6AB10005563F /* AWDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDrawerController.h; sourceTree = "<group>"; };
+		715A92331F6A6AB10005563F /* AWDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDrawerController.m; sourceTree = "<group>"; };
+		715A92341F6A6AB10005563F /* AWDrawerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWDrawerController.xib; sourceTree = "<group>"; };
+		715A92371F6A6AB10005563F /* AWEventMoveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEventMoveController.h; sourceTree = "<group>"; };
+		715A92381F6A6AB10005563F /* AWEventMoveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEventMoveController.m; sourceTree = "<group>"; };
+		715A92391F6A6AB10005563F /* AWEventMoveController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWEventMoveController.xib; sourceTree = "<group>"; };
+		715A923B1F6A6AB10005563F /* AWMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWMoveView.h; sourceTree = "<group>"; };
+		715A923C1F6A6AB10005563F /* AWMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWMoveView.m; sourceTree = "<group>"; };
+		715A923E1F6A6AB10005563F /* AWTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWTransformViewController.h; sourceTree = "<group>"; };
+		715A923F1F6A6AB10005563F /* AWTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWTransformViewController.m; sourceTree = "<group>"; };
+		715A92401F6A6AB10005563F /* AWTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWTransformViewController.xib; sourceTree = "<group>"; };
+		715A92421F6A6AB10005563F /* AWEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEventViewController.h; sourceTree = "<group>"; };
+		715A92431F6A6AB10005563F /* AWEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEventViewController.m; sourceTree = "<group>"; };
+		715A92441F6A6AB10005563F /* AWEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AWEventViewController.xib; sourceTree = "<group>"; };
+		715A92581F6A6B890005563F /* AWSketchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSketchController.h; sourceTree = "<group>"; };
+		715A92591F6A6B890005563F /* AWSketchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSketchController.m; sourceTree = "<group>"; };
+		715A925C1F6A6C900005563F /* Quartz2D简介.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Quartz2D简介.m"; sourceTree = "<group>"; };
+		715A92671F6A81CC0005563F /* AWLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWLineView.h; sourceTree = "<group>"; };
+		715A92681F6A81CC0005563F /* AWLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWLineView.m; sourceTree = "<group>"; };
+		715A926B1F6A834B0005563F /* AWDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDrawRect.h; sourceTree = "<group>"; };
+		715A926C1F6A834B0005563F /* AWDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDrawRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +132,7 @@
 		715A91D61F6A11C90005563F /* UIViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				715A920A1F6A11FE0005563F /* Classes */,
+				715A922E1F6A6AB10005563F /* Classes */,
 				715A91DA1F6A11C90005563F /* AppDelegate.h */,
 				715A91DB1F6A11C90005563F /* AppDelegate.m */,
 				715A91E01F6A11C90005563F /* Main.storyboard */,
@@ -159,73 +170,176 @@
 			path = UIViewAnimationUITests;
 			sourceTree = "<group>";
 		};
-		715A920A1F6A11FE0005563F /* Classes */ = {
+		715A922E1F6A6AB10005563F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				715A92281F6A68D90005563F /* Transform(基本动画) */,
-				715A92221F6A5F240005563F /* Drawer(抽屉效果) */,
-				715A92111F6A15900005563F /* Event */,
+				715A924E1F6A6B650005563F /* Sketch */,
+				715A922F1F6A6AB10005563F /* Event */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		715A92111F6A15900005563F /* Event */ = {
+		715A922F1F6A6AB10005563F /* Event */ = {
 			isa = PBXGroup;
 			children = (
-				715A92121F6A159F0005563F /* AWEventViewController.h */,
-				715A92131F6A159F0005563F /* AWEventViewController.m */,
-				715A92141F6A159F0005563F /* AWEventViewController.xib */,
-				715A92171F6A177F0005563F /* Controller */,
-				715A92181F6A177F0005563F /* View */,
+				715A92411F6A6AB10005563F /* Main */,
+				715A92301F6A6AB10005563F /* Controller */,
 			);
 			path = Event;
 			sourceTree = "<group>";
 		};
-		715A92171F6A177F0005563F /* Controller */ = {
+		715A92301F6A6AB10005563F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				715A921C1F6A17B40005563F /* Move(拖拽) */,
+				715A92311F6A6AB10005563F /* Drawer(抽屉效果) */,
+				715A92351F6A6AB10005563F /* Move(拖拽) */,
+				715A923D1F6A6AB10005563F /* Transform(基本动画) */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		715A92181F6A177F0005563F /* View */ = {
+		715A92311F6A6AB10005563F /* Drawer(抽屉效果) */ = {
 			isa = PBXGroup;
 			children = (
-				715A92191F6A178C0005563F /* AWMoveView.h */,
-				715A921A1F6A178C0005563F /* AWMoveView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		715A921C1F6A17B40005563F /* Move(拖拽) */ = {
-			isa = PBXGroup;
-			children = (
-				715A921D1F6A17C90005563F /* AWEventMoveController.h */,
-				715A921E1F6A17C90005563F /* AWEventMoveController.m */,
-				715A921F1F6A17C90005563F /* AWEventMoveController.xib */,
-			);
-			path = "Move(拖拽)";
-			sourceTree = "<group>";
-		};
-		715A92221F6A5F240005563F /* Drawer(抽屉效果) */ = {
-			isa = PBXGroup;
-			children = (
-				715A92231F6A5FAE0005563F /* AWDrawerController.h */,
-				715A92241F6A5FAE0005563F /* AWDrawerController.m */,
-				715A92251F6A5FAE0005563F /* AWDrawerController.xib */,
+				715A92321F6A6AB10005563F /* AWDrawerController.h */,
+				715A92331F6A6AB10005563F /* AWDrawerController.m */,
+				715A92341F6A6AB10005563F /* AWDrawerController.xib */,
 			);
 			path = "Drawer(抽屉效果)";
 			sourceTree = "<group>";
 		};
-		715A92281F6A68D90005563F /* Transform(基本动画) */ = {
+		715A92351F6A6AB10005563F /* Move(拖拽) */ = {
 			isa = PBXGroup;
 			children = (
-				715A92291F6A68D90005563F /* AWTransformViewController.h */,
-				715A922A1F6A68D90005563F /* AWTransformViewController.m */,
-				715A922B1F6A68D90005563F /* AWTransformViewController.xib */,
+				715A92361F6A6AB10005563F /* Controller */,
+				715A923A1F6A6AB10005563F /* View */,
+			);
+			path = "Move(拖拽)";
+			sourceTree = "<group>";
+		};
+		715A92361F6A6AB10005563F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				715A92371F6A6AB10005563F /* AWEventMoveController.h */,
+				715A92381F6A6AB10005563F /* AWEventMoveController.m */,
+				715A92391F6A6AB10005563F /* AWEventMoveController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		715A923A1F6A6AB10005563F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				715A923B1F6A6AB10005563F /* AWMoveView.h */,
+				715A923C1F6A6AB10005563F /* AWMoveView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		715A923D1F6A6AB10005563F /* Transform(基本动画) */ = {
+			isa = PBXGroup;
+			children = (
+				715A923E1F6A6AB10005563F /* AWTransformViewController.h */,
+				715A923F1F6A6AB10005563F /* AWTransformViewController.m */,
+				715A92401F6A6AB10005563F /* AWTransformViewController.xib */,
 			);
 			path = "Transform(基本动画)";
+			sourceTree = "<group>";
+		};
+		715A92411F6A6AB10005563F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				715A92421F6A6AB10005563F /* AWEventViewController.h */,
+				715A92431F6A6AB10005563F /* AWEventViewController.m */,
+				715A92441F6A6AB10005563F /* AWEventViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		715A924E1F6A6B650005563F /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				715A924F1F6A6B650005563F /* Controller */,
+				715A92571F6A6B650005563F /* Main */,
+			);
+			path = Sketch;
+			sourceTree = "<group>";
+		};
+		715A924F1F6A6B650005563F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				715A92661F6A81CC0005563F /* 直线&曲线 */,
+				715A926A1F6A83390005563F /* 绘制图形 */,
+				715A92511F6A6B650005563F /* 水印 */,
+				715A92531F6A6B650005563F /* 自定义UIImageView */,
+				715A92541F6A6B650005563F /* 进度条 */,
+				715A92551F6A6B650005563F /* 雪花效果 */,
+				715A92561F6A6B650005563F /* 饼图 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		715A92511F6A6B650005563F /* 水印 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "水印";
+			sourceTree = "<group>";
+		};
+		715A92531F6A6B650005563F /* 自定义UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自定义UIImageView";
+			sourceTree = "<group>";
+		};
+		715A92541F6A6B650005563F /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
+		715A92551F6A6B650005563F /* 雪花效果 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "雪花效果";
+			sourceTree = "<group>";
+		};
+		715A92561F6A6B650005563F /* 饼图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "饼图";
+			sourceTree = "<group>";
+		};
+		715A92571F6A6B650005563F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				715A92581F6A6B890005563F /* AWSketchController.h */,
+				715A92591F6A6B890005563F /* AWSketchController.m */,
+				715A925C1F6A6C900005563F /* Quartz2D简介.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		715A92661F6A81CC0005563F /* 直线&曲线 */ = {
+			isa = PBXGroup;
+			children = (
+				715A92671F6A81CC0005563F /* AWLineView.h */,
+				715A92681F6A81CC0005563F /* AWLineView.m */,
+			);
+			path = "直线&曲线";
+			sourceTree = "<group>";
+		};
+		715A926A1F6A83390005563F /* 绘制图形 */ = {
+			isa = PBXGroup;
+			children = (
+				715A926B1F6A834B0005563F /* AWDrawRect.h */,
+				715A926C1F6A834B0005563F /* AWDrawRect.m */,
+			);
+			path = "绘制图形";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,13 +452,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715A92461F6A6AB10005563F /* AWDrawerController.xib in Resources */,
 				715A91E71F6A11C90005563F /* LaunchScreen.storyboard in Resources */,
-				715A92271F6A5FAE0005563F /* AWDrawerController.xib in Resources */,
-				715A92161F6A159F0005563F /* AWEventViewController.xib in Resources */,
-				715A92211F6A17C90005563F /* AWEventMoveController.xib in Resources */,
-				715A922D1F6A68D90005563F /* AWTransformViewController.xib in Resources */,
+				715A924D1F6A6AB10005563F /* AWEventViewController.xib in Resources */,
 				715A91E41F6A11C90005563F /* Assets.xcassets in Resources */,
+				715A924B1F6A6AB10005563F /* AWTransformViewController.xib in Resources */,
 				715A91E21F6A11C90005563F /* Main.storyboard in Resources */,
+				715A92481F6A6AB10005563F /* AWEventMoveController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,12 +484,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				715A91DC1F6A11C90005563F /* AppDelegate.m in Sources */,
-				715A92261F6A5FAE0005563F /* AWDrawerController.m in Sources */,
+				715A92691F6A81CC0005563F /* AWLineView.m in Sources */,
+				715A926D1F6A834B0005563F /* AWDrawRect.m in Sources */,
+				715A925D1F6A6C900005563F /* Quartz2D简介.m in Sources */,
 				715A91D91F6A11C90005563F /* main.m in Sources */,
-				715A921B1F6A178C0005563F /* AWMoveView.m in Sources */,
-				715A92151F6A159F0005563F /* AWEventViewController.m in Sources */,
-				715A922C1F6A68D90005563F /* AWTransformViewController.m in Sources */,
-				715A92201F6A17C90005563F /* AWEventMoveController.m in Sources */,
+				715A92451F6A6AB10005563F /* AWDrawerController.m in Sources */,
+				715A92491F6A6AB10005563F /* AWMoveView.m in Sources */,
+				715A92471F6A6AB10005563F /* AWEventMoveController.m in Sources */,
+				715A925A1F6A6B890005563F /* AWSketchController.m in Sources */,
+				715A924C1F6A6AB10005563F /* AWEventViewController.m in Sources */,
+				715A924A1F6A6AB10005563F /* AWTransformViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +733,7 @@
 				715A92031F6A11C90005563F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		715A92041F6A11C90005563F /* Build configuration list for PBXNativeTarget "UIViewAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +742,7 @@
 				715A92061F6A11C90005563F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		715A92071F6A11C90005563F /* Build configuration list for PBXNativeTarget "UIViewAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +751,7 @@
 				715A92091F6A11C90005563F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

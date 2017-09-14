@@ -11,6 +11,7 @@
 #import "AWEventViewController.h"
 #import "AWEventMoveController.h"
 #import "AWDrawerController.h"
+#import "AWTransformViewController.h"
 
 @interface AWEventViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -28,6 +29,8 @@
         _dataArr = [NSMutableArray array];
         [_dataArr addObject:@"View的拖拽"];
         [_dataArr addObject:@"抽屉效果"];
+        [_dataArr addObject:@"基本移动效果"];
+
 
     }
     return _dataArr;
@@ -35,7 +38,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tabBarController.tabBarItem.title = @"事件处理";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"eventCell"];
 }
 
@@ -57,6 +59,8 @@
         [self.navigationController pushViewController:[[AWEventMoveController alloc] init] animated:YES];
     }else if (indexPath.row == 1){
         [self.navigationController pushViewController:[[AWDrawerController alloc] init] animated:YES];
+    }else if (indexPath.row == 2){
+        [self.navigationController pushViewController:[[AWTransformViewController alloc] init] animated:YES];
     }
 }
 

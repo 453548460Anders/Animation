@@ -28,12 +28,22 @@
                         <outlet property="delegate" destination="-1" id="KW3-bM-B9h"/>
                     </connections>
                 </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VcD-rX-U73" customClass="AWDrawRect">
+                    <rect key="frame" x="175" y="387" width="200" height="200"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="Mlg-FO-lBw"/>
+                        <constraint firstAttribute="width" constant="200" id="poW-0o-YN6"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="inh-d4-D3i" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4Wa-9G-GnI"/>
                 <constraint firstAttribute="trailing" secondItem="inh-d4-D3i" secondAttribute="trailing" id="6Yh-Rp-zjp"/>
+                <constraint firstAttribute="bottom" secondItem="VcD-rX-U73" secondAttribute="bottom" constant="80" id="DnP-C2-12d"/>
                 <constraint firstItem="inh-d4-D3i" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Rdx-hv-m2S"/>
+                <constraint firstAttribute="trailing" secondItem="VcD-rX-U73" secondAttribute="trailing" id="mv2-Ji-1la"/>
                 <constraint firstAttribute="bottom" secondItem="inh-d4-D3i" secondAttribute="bottom" id="xb1-3B-4wX"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>
